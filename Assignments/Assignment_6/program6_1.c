@@ -11,6 +11,9 @@ void CalculateElectricityBill(int iUnits)
         return;
     }
 
+
+    
+
     if (iUnits <= 100)
     {
         fBill = iUnits * 5.0f;
